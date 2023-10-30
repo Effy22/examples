@@ -18,7 +18,6 @@ public class Odev_EGCozum {
          * ve  önce ki tahminlermizide bir arrayde tutalım oyun sonunda da tahminleriniz diye yazdıralım
          */
 
-        //10 hakkımız olsun.
         Scanner sc=new Scanner(System.in);
 
         int sayac=5;
@@ -49,8 +48,21 @@ public class Odev_EGCozum {
 
     public static int rastgeleSayiUret(){
         Random random=new Random();
-        int sayi= random.nextInt(1,750);
+        return random.nextInt(1,750);
+    }
+
+    public static int sayiAl(){ //yanlış bir değer ürettikçe bizden yenisini istesin istiyorsak
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Lütfen 1 ile 750 arasında bir sayı giriniz..:");
+        int sayi=sc.nextInt();
+        while(sayi<0 && sayi>750){
+            sayi=sc.nextInt();
+        }
         return sayi;
+    }
+
+    public static void sayiKontrol (int sayi1, int randomsayi){
+
     }
 
 

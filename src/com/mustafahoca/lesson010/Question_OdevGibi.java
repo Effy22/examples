@@ -6,7 +6,8 @@ import java.util.Scanner;
  * 3-Girdiğimiz şehrin ismine göre plaka kodu dönen metot yazalım
  * 4-ilk harf hariç sesli harfleri silip yazdıran bir fonksiyon yazalım (bir arreye atayalım.)
  * 5-bir önceki metottan dönen değerlerin ilk üç harfini alsın ve sonuna üç tane nokta eklesin
- *
+ * 6-bir önceki metottan dönen dizide B ile başlayan illerin başına sıra no 1-Blk 2-Bl
+ * 7-İkinci harfi a olanların ilk 3 harfini büyük yazdırın  (ÇAN, MAN, ...) şeklinde devam etsin..
  */
 public class Question_OdevGibi {
     public static void main(String[] args) {
